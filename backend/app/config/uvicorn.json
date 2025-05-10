@@ -1,0 +1,21 @@
+{
+    "host": "0.0.0.0",
+    "port": 8000,
+    "workers": 2,
+    "loop": "asyncio",
+    "http": "h11",
+    "ws": "none",
+    "lifespan": "on",
+    "interface": "asgi3",
+    "log_level": "info",
+    "timeout_keep_alive": 5,
+    "timeout_notify": 30,
+    "callback_notify": null,
+    "limit_concurrency": 20,
+    "limit_max_requests": 100,
+    "backlog": 10,
+    "proxy_headers": true,
+    "forwarded_allow_ips": "*",
+    "server_header": true,
+    "date_header": true
+}
